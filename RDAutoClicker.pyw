@@ -102,7 +102,7 @@ class App(tk.Frame):
         print('Placing Widgets...')
         self.title.pack(side='top')
         self.entry1.place(x=10, y=50)
-        tk.Label(self.master, text='ms遺��').place(x=100, y=50)
+        tk.Label(self.master, text='ms부터').place(x=100, y=50)
         self.entry2.place(x=180, y=50)
         tk.Label(self.master, text='ms').place(x=270, y=50)
         self.label1.place(x=30, y=80)
